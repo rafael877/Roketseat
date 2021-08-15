@@ -1,0 +1,40 @@
+<html> 
+    <head>
+         <title>Curso Javascript</title>>
+    </head>>  
+        <body>
+          <script>
+         //java Script
+
+       //criando uma função
+       function RetornaSexo(sexo)  {
+         // M,F
+         // Masculino,Feminino
+         
+         /*com 3 "=" ele vai retornar se eh iqual o tipo de do valor - 
+         int,char,float...*/
+
+
+         //com if ode baixo
+        
+         /*   if (sexo === 'M' ) {
+        return "Masculino';
+        } else if (sexo === 'F' ) {
+        return 'Feminino';
+        } else {
+        return 'Outro';*/
+      
+        switch (sexo){
+        case 'M':
+            return 'Masculino';
+        case'F':
+          return 'Feminino';
+        default:
+          return'Outro';
+            }
+}
+var resultado = RetornaSexo('M');
+            console.log(resultado);
+         </script>
+        </body>
+</html>
